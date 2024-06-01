@@ -3,13 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(sum(10, 20))
+	fmt.Println(sum(20, 20))
 }
 
 func sum(a, b int) int {
 	return a + b
-}
-
-func subtract(a, b int) int {
-	return a - b
 }
